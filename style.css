@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body-preview {
+  background-color: #181818;
+}
+
+.body-preview svg {
+  width: 300px;
+  height: 500px;
+}
+
+.body-preview-wrapper {
+  display: none;
+  
+}
+
+.body-preview-wrapper.toggle {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.muscle-list input  {
+display: block;
+}
+
+.toggle-muscle path {
+  fill: red;
+}
